@@ -118,7 +118,7 @@ nav a {
 .toppart-content {
     width: 901px;
     height: 700px;
-    background-image: url(/images/Group\ 14.png);
+    background-image: url(images/Group\ 14.png);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -632,7 +632,7 @@ color:white;
     }
 
     .toppart-content {
-        padding: 30px;
+        padding: 30px 10px;
     }
 
     .wearegamer {
