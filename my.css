@@ -6,7 +6,6 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Prata', serif;
     margin: 0;
 
 }
@@ -633,8 +632,7 @@ color:white;
     }
 
     .toppart-content {
-        margin: auto;
-        padding: 40px;
+        padding: 30px;
     }
 
     .wearegamer {
@@ -700,7 +698,7 @@ color:white;
     }
 
     .gamescategoriessection {
-        margin: auto;
+        margin:100px 10px;
     }
 
     .cat-icon {
@@ -720,6 +718,10 @@ color:white;
         width: auto;
         border:unset;
 
+    }
+
+    .onlinegamesfunny {
+        margin-bottom: 100px;
     }
 
 }
