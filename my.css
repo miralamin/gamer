@@ -727,3 +727,141 @@ color:white;
     }
 
 }
+
+
+/* tablet device  */
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+
+    .header,
+    nav>ul,
+    .onlinegamesfunny-images,
+    .careers {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav>ul{
+        padding-inline-start: 0;
+    }
+    nav li{
+        margin: 10px;
+    }
+
+    .playinstant2 {
+        margin-bottom: 200px;
+    }
+
+    .toppart,
+    .wearegamer,
+    .playinstant2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .playinstant2 {
+        padding: 0px 20px;
+    }
+
+
+
+    .toppart-img,
+    .toppart-content,
+    .wearegamer,
+    .onlinegamesfunny-box,
+    .careers-content {
+        width: auto;
+        height: auto;
+    }
+
+    .toppart-content {
+        padding: 30px 10px;
+    }
+
+    .wearegamer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .wearegamer-left img {
+        width: 100%;
+    }
+
+    .onlinegamesfunny-box {
+        text-align: center;
+    }
+
+
+    .playinstant2-img-bottom {
+        border-radius: 8px;
+        color: #FFF;
+        width: 340px;
+        text-align: center;
+        position: relative;
+        bottom: auto;
+        left: auto;
+    }
+
+    .playinstant2-img {
+        width: auto;
+        text-align: center;
+    }
+
+    .playinstant2-img img {
+        width: 90%;
+    }
+
+    .playinstant2-left {
+        width: auto;
+        text-align: center;
+        padding-right: unset;
+
+    }
+
+    .careers-img img {
+        width: 80%;
+        margin: 40px;
+    }
+
+    .careers-content {
+        padding: 50px 40px;
+    }
+
+    .careerlist {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .career-text2 {
+        text-align: left;
+
+    }
+
+    .gamescategoriessection {
+        margin:100px 10px;
+    }
+
+    .cat-icon {
+        padding: unset;
+    }
+    .cat-icon-box {
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        color: #0B0223;
+        margin: 5px;
+        justify-items: self-start;
+    }
+    
+    .cat-item{
+        width: auto;
+        border:unset;
+
+    }
+
+    .onlinegamesfunny {
+        margin-bottom: 100px;
+    }
+
+}
