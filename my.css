@@ -597,7 +597,9 @@ color:white;
         flex-direction: column;
         height: auto;
     }
-
+    .header{
+        width: auto;
+    }
     nav>ul{
         padding-inline-start: 0;
     }
@@ -620,7 +622,15 @@ color:white;
         padding: 0px 20px;
     }
 
-
+    .goat {
+        font-size: 65px;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
 
     .toppart-img,
     .toppart-content,
@@ -632,7 +642,7 @@ color:white;
     }
 
     .toppart-content {
-        padding: 30px 10px;
+        padding: 20px;
     }
 
     .wearegamer {
