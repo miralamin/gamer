@@ -676,7 +676,8 @@ color:white;
     .playinstant2-left {
         width: auto;
         text-align: center;
-        padding-right: auto;
+        padding-right: unset;
+
     }
 
     .careers-img img {
@@ -695,6 +696,7 @@ color:white;
 
     .career-text2 {
         text-align: left;
+
     }
 
     .gamescategoriessection {
